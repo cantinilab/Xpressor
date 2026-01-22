@@ -12,7 +12,7 @@ scPRINT can be used to perform the following analyses:
 - __label prediction__: predict the cell type, disease, sequencer, sex, and ethnicity of your cells
 - __gene network inference__: generate a gene network from any cell or cell cluster in your scRNAseq dataset
 
-[Read the manuscript!](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1) if you would like to know more about XPressor.
+[Read the manuscript!](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1) if you would like to know more about Xpressor.
 
 ![figure1](docs/figure1.png)
 
@@ -20,7 +20,7 @@ scPRINT can be used to perform the following analyses:
 
 ## Reproducibility 
 
-To reproduce the results in the XPressor paper:
+To reproduce the results in the Xpressor paper:
 - Follow the installation instruction from regular scPRINT (kept in this README)
 - run the fit-loop of scPRINT (full train/val/test program) for each of the 3 different versions using these commands:
    - scprint fit --config ablation_study.yml --model.cell_specific_blocks True
@@ -29,8 +29,8 @@ To reproduce the results in the XPressor paper:
 
 ## Changes made:
 
-- we have updated the Flash-Attention package from scPRINT to integrate the ability to use the XPressor architecture.
-- we have updated the model.py file to add ESM2 fine tuning and the XPressor architecture.
+- we have updated the Flash-Attention package from scPRINT to integrate the ability to use the Xpressor architecture.
+- we have updated the model.py file to add ESM2 fine tuning and the Xpressor architecture.
 
 ## Install `scPRINT`
 
