@@ -1,5 +1,5 @@
 
-# XPressor and ESM2-fine-tuning version of scPRINT
+# Xpressor and ESM2-fine-tuning version of scPRINT
 
 scPRINT is a large transformer model built for the inference of gene networks (connections between genes explaining the cell's expression profile) from scRNAseq data.
 
